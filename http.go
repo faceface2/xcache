@@ -1,7 +1,6 @@
 package xcache
 
 import (
-	"Gache/consistent"
 	"fmt"
 	"io/ioutil"
 	"log"
@@ -9,10 +8,12 @@ import (
 	"net/url"
 	"strings"
 	"sync"
+
+	"github.com/xcache/consistent"
 )
 
 const (
-	defaultBasePath = "/_Gache"
+	defaultBasePath = "/_cache"
 	/*
 		节点数，后续代码添加
 	*/

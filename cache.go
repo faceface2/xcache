@@ -2,7 +2,8 @@ package xcache
 
 import (
 	"sync"
-	"xcache/lru"
+
+	"github.com/xcache/lru"
 )
 
 // 封装lru，封装get和add方法，并添加互斥锁mu
